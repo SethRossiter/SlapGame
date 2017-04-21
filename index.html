@@ -1,12 +1,31 @@
 <html>
+
 <head>
 	<title>Slap Object Game</title>
-	<link rel="stylesheet" href="">
-	<link rel="stylesheet" href="">
-	
+	<link rel="stylesheet" href="game.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+	<title>Slap-Game</title>
 </head>
+
 <body>
-	
-	<script src=""></script>
+	<div class="panel panel-default">
+		<div class="panel-heading">Box Manny Pacquiao</div>
+		<div class="panel-body">
+			<img src="http://img.timeinc.net/time/daily/2009/0911/360_wmanny_1116.jpg" width="200" height="200">
+			<button type="button" id="jab" onclick="damageType('jab')">JAB</button>
+			<button type="button" id="hook" onclick="damageType('hook')">HOOK</button>
+			<button type="button" id="upper" onclick="damageType('upper')">UPPER</button>
+			<button type="button" id="bite" onclick="damageType('bite')">BITE</button>
+			<button type="button" onclick="onReset('reset')">RESET</button>
+		</div>
+
+		<div id="mannyP">
+			<h1 id="healthCount">100</h1>
+			<h1 id="mannyStatus">FIGHT ME</h1>
+		</div>
+
+		<script src="game.js"></script>
 </body>
+
 </html>
