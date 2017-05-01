@@ -2,7 +2,7 @@
 
 ### Encapsulation
  
-We now have a fully functioning slap game! Yay! However we know there are vulnerabilities right now that allow savvy users to change parts of the game they should not have access to simply by redefining them in the command line. 
+We now have a fully functioning slap game! Yay! However we know there are vulnerabilities right now that allow savvy users to change parts of the game they should not have access to simply by redefinin them in the command line. 
 
 In order to protect our data we need to separate it out using encapsulation, and only allow the user to access it through methods we provide.
 
