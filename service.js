@@ -1,4 +1,4 @@
-function SlapGameService(){
+function SlapGameService(){}
 
     function Target(name, mph, firstgear, secondgear, thirdgear, forthgear, fifthgear, reverse){
     this.name= name;
